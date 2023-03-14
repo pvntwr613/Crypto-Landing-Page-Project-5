@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    font-family: "Red Rose";
+  }
+
+ body {
+    position: relative;
+    height: 100vh;
+ }
+
+/* Navbar  */
+ .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #000000;
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-right: 70px;
+    padding-bottom: 40px;
+
+ }
+
+ .logo{
+   height: 40px;
+}
+
+.line{
+   margin-top: 4px;
+   height: 65px;
+   width: 1.2px;
+   background-color: #ffffff;
+   margin-right: 1050px;
+}
+
+ .list  {
+    position: absolute;
+    top: 50px;
+    left: 320px;
+    padding: 0px 20px;
+    list-style: none;
+ }
+
+ 
+.list li{
+   margin: 0 20px;
+   font-family: 'Poppins';
+   font-size: 18px;
+   font-weight: 600;
+   width: 100px;
+}
+
+
+
+ .list-item  {
+    display: inline-block;
+    padding: 0px 30px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+ }
+
+ .button-small {
+    padding: 10px 25px;
+    font-size: 25px;
+    font-weight: 600;
+    top: 50px;
+    left: 50px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: rgb(195, 26, 186);
+ }
+
+ .button-small:hover {
+    color: #ffffff;
+    background-color: #1f1f1f;
+ }
+
+ /* Hero-Section  */
+ .hero {
+    position: relative;
+   background-image: url(./assets/bg.png);
+   height: 120vh;
+   background-size: cover;
+   background-position: center;
+  
+ }
+
+ .hero-heading {
+    position: absolute;
+    text-align: center;
+    top: 130px;
+    left: 120px;
+    letter-spacing: 5px;
+    color: #ffffff;
+    font-size: 140px;
+    font-family: "Red Rose";
+}
+
+ .hero-description {
+    position: absolute;
+    text-align: center;
+    top: 480px;
+    left: 600px;
+    letter-spacing: 4px;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 600;
+ }
+
+ .button-large {
+    position: absolute;
+    top: 560px;
+    left: 800px;
+    font-size: 30px;
+    font-weight: 550;
+    padding: 10px 40px;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: 1px solid rgb(195, 26, 186);
+    background-color: rgb(195, 26, 186);
+ }
+
+ /* Hover Effect  */
+ .button-large:hover {
+    color: #ffffff;
+    background-color: #1f1f1f;
+    border: 1px solid #1f1f1f;
+ }
